@@ -81,7 +81,7 @@ Instalar paquetes utilizando el interprete de python integrado en Blender 3.0.
 
     (base)  cd DIRECTORIO_DE_BLENDER
     (base)  cd 3.0/python/bin
-    (base)  python -m pip install compas_fab
+    (base)  python -m pip install compas_fab ur-rtde
 
 #### Opción 2
 

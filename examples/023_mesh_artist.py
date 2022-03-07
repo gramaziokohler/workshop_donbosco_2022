@@ -22,7 +22,7 @@ edgecolor[start] = (1, 0, 0)
 
 facecolor = {}
 for face in strip:
-    facecolor[face] = (1, .8, .8)
+    facecolor[face] = (1, 0.8, 0.8)
 
 clear()
 artist = Artist(mesh)

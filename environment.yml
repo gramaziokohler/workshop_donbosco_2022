@@ -1,0 +1,15 @@
+name: fab22
+channels:
+    - conda-forge
+
+dependencies:
+   - python=3.9
+   - pip
+   - git
+   - compas>=1.14.1
+   - compas_fab>=0.22
+   - compas_cgal
+   - compas_rrc
+   - black
+   - autopep8
+   - flake8

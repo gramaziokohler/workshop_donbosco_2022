@@ -77,7 +77,7 @@ Ejecutar primero el siguiente comando al menos una vez:
 
 #### Opción 1
 
-Instalar paquetes utilizando el interprete de python embebido en Blender 3.0.
+Instalar paquetes utilizando el interprete de python integrado en Blender 3.0.
 
     (base)  cd DIRECTORIO_DE_BLENDER
     (base)  cd 3.0/python/bin
@@ -89,4 +89,4 @@ Utilizar Blender 3.0.1. portable con `COMPAS FAB` pre-instalado: https://wolke.e
 
 Simplemente debe bajarse el archivo y descomprimir en una carpeta a elección.
 
-Esta opcion solo está disponible para Windows.
+Esta opcion solo está disponible para Windows 64-bits.

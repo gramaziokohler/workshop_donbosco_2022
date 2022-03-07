@@ -30,8 +30,8 @@
 * Control de robots ABB con COMPAS RRC.
 * Primitivas de control de RRC: bloqueantes, no-bloqueantes, y bloqueo diferido.
 * Set de instrucciones de RRC: movimiento, control de IO, personalización.
-* Control de robots UR con ur_online_control.
-* Control de robots UR con drivers de ROS-Industrial.
+* Control de robots UR con `ur-rtde`.
+* Control de robots UR con ROS-Industrial.
 
 ## Requisitos
 
@@ -59,6 +59,7 @@ Ejecutar primero el siguiente comando al menos una vez:
 
 ### Verificación de la instalación
 
+    (base)  conda activate fab22
     (fab22) python -m compas
 
     Yay! COMPAS is installed correctly!
@@ -69,7 +70,6 @@ Ejecutar primero el siguiente comando al menos una vez:
 
 ### Materiales del taller
 
-    (base)  conda activate fab22
     (fab22) cd Documentos
     (fab22) git clone https://github.com/gramaziokohler/workshop_donbosco_2022
 

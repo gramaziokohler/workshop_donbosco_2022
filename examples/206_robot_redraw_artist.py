@@ -14,13 +14,15 @@ config = model.zero_configuration()
 clear()
 
 artist = Artist(model)
+artist.draw_visual()
+
+steps = [random.random() * 0.2 - 0.2 for _ in range(6)]
 
 for _ in range(20):
     # Update config randomly
     for j in range(6):
-        config.joint_values[j] += random.random() * 0.2 - 0.2
+        config.joint_values[j] += steps[j]
 
     artist.update(config)
-    artist.draw_visual()
+    artist.redraw()
     time.sleep(0.02)
-    redraw()

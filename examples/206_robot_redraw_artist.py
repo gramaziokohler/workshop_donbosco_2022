@@ -2,7 +2,6 @@ import time
 import random
 from compas.artists import Artist
 from compas.artists import clear
-from compas.artists import redraw
 from compas.robots import RobotModel
 
 # Load robot

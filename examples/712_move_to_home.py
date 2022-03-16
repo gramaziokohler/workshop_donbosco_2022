@@ -26,4 +26,3 @@ if __name__ == "__main__":
 
     # Close client
     ros.close()
-    ros.terminate()
